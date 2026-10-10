@@ -1,0 +1,14 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*_executed.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# HAR70+ raw files are too large for GitHub (about 150 MB), download them from UCI instead
+03-human-activity-recognition/data/*.csv
